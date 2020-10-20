@@ -11,6 +11,10 @@
   "author": "Vipin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^8.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^5.0.0"
   }
 }

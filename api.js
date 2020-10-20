@@ -1,4 +1,5 @@
 //------------------ Initialization of parameters-------------------------------------------
+var request = require('supertest');
 const express     = require("express");
 const app         = express();
 
@@ -10,6 +11,9 @@ app.get('/', function (req, res) {
    });
 
 // -----------------Initializing the server port at 3000----------------------
-app.listen(3000, function() { 
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
   console.log('Server listening on port 3000 for AWS DevOps CI/CD integration testing...'); 
+  
 });
