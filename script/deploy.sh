@@ -8,4 +8,4 @@ ssh ec2-user@3.17.66.184 <<EOF
     npm install
     npm install -g nodemon pm2
     pm2 restart ecosystem.config.js
-    exitpm
+    exit
