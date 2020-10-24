@@ -7,7 +7,7 @@ const app         = express();
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
-    res.send('Welcome VIPI on DevOps, CD testing is doing on.. PERIOD1' );
+    res.send('Welcome VIPI on DevOps, CD testing is doing on SUCCESS on CD' );
    });
 
 // -----------------Initializing the server port at 3000----------------------
