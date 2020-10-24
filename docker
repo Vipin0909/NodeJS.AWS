@@ -2,7 +2,7 @@ FROM node:latest
 
 MAINTAINER Vipin M 
 
-RUN echo "Running node js app on Docker.."
+RUN echo "Running node js app on Docker Container.."
 
 COPY . /var/www
 
