@@ -1,4 +1,5 @@
 #!/bin/sh
+
 ssh ec2-user@3.17.66.184 <<EOF
     cd ~/NodeJSDeployment
     git pull origin master
