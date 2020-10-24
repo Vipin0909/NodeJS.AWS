@@ -1,0 +1,15 @@
+FROM node:latest
+
+MAINTAINER Vipin M 
+
+RUN echo "Running node js app on Docker.."
+
+COPY . /var/www
+
+WORKDIR /var/www
+
+RUN npm install
+
+EXPOSE 3000
+
+ENTRYPOINT ["npm","start"]
