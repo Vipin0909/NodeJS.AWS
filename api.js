@@ -7,7 +7,7 @@ const app         = express();
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
-    res.send('Application running on new AWS instance' );
+    res.send('Application running on new AWS instance Modified' );
    });
 
 // -----------------Initializing the server port at 3000----------------------
