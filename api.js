@@ -6,8 +6,8 @@ const app         = express();
 // -----------------------Create Routes-----------------------
 
 //Respond with "hello world" for requests that hit our root "/"
-app.get('/', function (req, res) {
-    res.send('Application running on new AWS instance Modified' );
+app.get('/login', function (req, res) {
+    res.send('Application is running on new AWS instance Successfuly..' );
    });
 
 // -----------------Initializing the server port at 3000----------------------
