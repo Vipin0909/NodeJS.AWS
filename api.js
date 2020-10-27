@@ -7,7 +7,7 @@ const app         = express();
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
-    res.send('CICD Test Success Vips18' );
+    res.send('Application running on new AWS instance' );
    });
 
 // -----------------Initializing the server port at 3000----------------------
