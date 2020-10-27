@@ -4,7 +4,7 @@ MAINTAINER Vipin M
 
 RUN echo "Running node js app on Docker Container.."
 
-COPY . /var/www
+COPY ./var/www
 
 WORKDIR /var/www
 
