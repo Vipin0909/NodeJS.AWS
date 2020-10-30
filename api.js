@@ -15,5 +15,5 @@ app.get('/login', function (req, res) {
 
 var port = process.env.PORT || 8080;
 app.listen(port, function () {
-  console.log('Server listening on port 3000 for AWS DevOps CI/CD integration testing... !');
+  console.log('Server listening on port 8000 for AWS DevOps CI/CD integration testing... !');
 });
