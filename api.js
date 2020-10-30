@@ -7,7 +7,7 @@ const app         = express();
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/login', function (req, res) {
-    res.send('Application is running on new AWS instance Successfuly..' );
+    res.send('Application is running on new AWS instance Successfuly..,' );
    });
 
    
