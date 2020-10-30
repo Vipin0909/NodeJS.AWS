@@ -7,7 +7,11 @@ const app         = express();
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/login', function (req, res) {
-    res.send('Application is running on new AWS instance Successfuly..,' );
+    res.send('Welcome to Login Page' );
+   });
+
+   app.get('/aboutyou', function (req, res) {
+    res.send('Welcome to About You Page' );
    });
 
    
