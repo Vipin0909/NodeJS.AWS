@@ -11,7 +11,7 @@ app.get('/login', function (req, res) {
    });
 
    app.get('/aboutyou', function (req, res) {
-    res.send('Welcome to About You Page' );
+    res.send('Welcome to About You Page, we are on AWS' );
    });
 
    
