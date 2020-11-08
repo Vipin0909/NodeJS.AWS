@@ -83,7 +83,7 @@ app.get('/login', function (req, res) {
    
 // -----------------Initializing the server port at at 8080----------------------
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log('Server listening on port 8080 with Docker .. . !');
 });
